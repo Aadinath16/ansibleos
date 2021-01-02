@@ -1,0 +1,2 @@
+[ansible]
+192.168.233.129 ansible_connection=ssh ansible_user=adinath ansible_password=adinath@16

@@ -1,0 +1,5 @@
+---
+  - hosts: ansible
+    tasks: 
+       - name: To display OS version
+         command: cat /etc/os-release
