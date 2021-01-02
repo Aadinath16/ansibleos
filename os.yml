@@ -3,3 +3,6 @@
     tasks: 
        - name: To display OS version
          command: cat /etc/os-release
+         register: output
+
+       - debug: var=output.stdout_lines
